@@ -47,12 +47,7 @@ font-family: Helvetica Nueve, Helvetica, Arial, sans-serif
 	padding-right: 300px;
 	padding-bottom: -30px;
 }
-#mic{
-	height:30px;
-	width:30px;
-	display: absolute;
-	margin-right: 400px;
-}
+
 .buttons {
 	padding-top: 20px;
 	padding-left: 600px;
@@ -75,11 +70,14 @@ font-family: Helvetica Nueve, Helvetica, Arial, sans-serif
 }
 .footer {
 	clear:both;
-padding-top: 21em;
+margin-top: 21em;
+	background-color: #CCCCCC;
+	height:30px;
 }
 .left {
 	text-align: left;
-	background: #CCCCCC;
+	background-color: #CCCCCC;
+	float: left;
 }
 .left li {
 	display:inline;
@@ -88,6 +86,8 @@ padding-top: 21em;
 .right{
 	text-align: right;
 	background: #CCCCCC;
+	float:right;
+	margin-right: 10px;
 }
 .right li {
 	display:inline;
@@ -106,4 +106,10 @@ a:visited{
 a:hover{
 	color: black;
 	text-decoration: underline;
+}
+input#search {
+ background:url('images/microphone.png');
+ background-repeat: no-repeat;
+ background-position: right center;
+background-size: 15px;
 }
