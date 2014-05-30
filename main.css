@@ -11,13 +11,15 @@ text-align: right;
 	display: inline;
 	margin-left: 10px;
 	font-size: 12px;
-
+	
 }
 #grid{
 	height:25px;
 	width:25px;
 	margin-top: 10px;
 	display: inline-block;
+	margin-right: 5px;
+	clear: both;
 }
 #btn-default {
 border: 0;
@@ -39,13 +41,17 @@ font-family: Helvetica Nueve, Helvetica, Arial, sans-serif
 }
 #google {
 	width:275px;
-	height:100px;
+	height:96px;
+	margin-left: 27px;
+	margin-top: -5px;
 }
 
 #search {
-	margin-left: 500px;
-	padding-right: 300px;
+	margin-left: 430px;
+	margin-top: 15px;
 	padding-bottom: -30px;
+	height: 25px;
+	width: 570px;
 }
 
 .buttons {
@@ -70,7 +76,7 @@ font-family: Helvetica Nueve, Helvetica, Arial, sans-serif
 }
 .footer {
 	clear:both;
-margin-top: 21em;
+margin-top: 23em;
 	background-color: #CCCCCC;
 	height:30px;
 }
@@ -111,5 +117,5 @@ input#search {
  background:url('images/microphone.png');
  background-repeat: no-repeat;
  background-position: right center;
-background-size: 15px;
+background-size: 23px;
 }
